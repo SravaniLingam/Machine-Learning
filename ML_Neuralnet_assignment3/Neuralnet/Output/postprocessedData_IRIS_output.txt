@@ -1,0 +1,57 @@
+Input:
+"C:\Users\sravani\Documents\Assignments\MI\ML_Neuralnet_assignment\preprocessing_output\preprocessing_output\postprocessedData_IRIS.xls" 80.0 0.01 3 2 2 3
+
+Output:
+Training Dataset Length:120
+Test Dataset Length:31
+Sum of training squared errors = 0.061973025289135085
+##### EPOCH 5000
+
+Reached maximum iterations
+printAllWeights
+
+Hiddenlayer:1
+
+neuron=5 c=0 w=-0.42226193934265255
+neuron=5 c=1 w=0.42273272893193736
+neuron=5 c=2 w=0.06560026523343043
+neuron=5 c=3 w=-0.06790791470341895
+neuron=5 c=4 w=-0.4749632770819676
+neuron=6 c=5 w=-0.5360918579044898
+neuron=6 c=6 w=-0.5258997405084143
+neuron=6 c=7 w=0.38088098497101286
+neuron=6 c=8 w=-0.9262967328046456
+neuron=6 c=9 w=-0.6315730609736558
+
+Hiddenlayer:2
+
+neuron=7 c=10 w=-0.46333343443739894
+neuron=7 c=11 w=0.2320666439727812
+neuron=7 c=12 w=0.9449871812453643
+neuron=8 c=13 w=-0.46148407361072663
+neuron=8 c=14 w=-0.02895837260322165
+neuron=8 c=15 w=0.18005918401667165
+
+Hiddenlayer:3
+
+neuron=9 c=16 w=1.0699034814947213
+neuron=9 c=17 w=-17.30760895283943
+neuron=9 c=18 w=-0.5384269095993519
+neuron=10 c=19 w=-0.7772475596610199
+neuron=10 c=20 w=-15.304290771084265
+neuron=10 c=21 w=-0.10105889046993388
+neuron=11 c=22 w=52.898983451465476
+neuron=11 c=23 w=-80.3876514585224
+neuron=11 c=24 w=-0.20244252058143863
+
+Outputlayer weights
+
+neuron=12 c=25 w=-6.1949321726971185
+neuron=12 c=26 w=-4.5943535292599895
+neuron=12 c=27 w=-24.483363053824792
+neuron=12 c=28 w=0.7652160014931717
+
+Sum of squared test errors = 0.01223028081048645
+##### EPOCH 5000
+
+Reached maximum iterations 

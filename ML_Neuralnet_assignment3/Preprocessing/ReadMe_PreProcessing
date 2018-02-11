@@ -1,0 +1,61 @@
+
+Programming Language used: Java 
+
+1. Pre-processing:
+
+Libraries used:
+We have used JXL(Jxl.jar) library for fetching and writing data to and from excel sheet(.xls)
+We have also used Apache Commons(commons-lang3-3.0.jar) for math functions like sqrt and to check if a string can be converted to a number or not.
+
+Assumptions and Input:
+Input dataset is given in a excel sheet(.xls)
+
+Note:
+If the value is categorical or nominal, it is converted to numerical values. For this we have used TreeMap dataStructure to assign and store different values to the keys(categories).
+
+After the conversion of data to numeric, we are standardizing the dataset.
+
+Example:
+The values set to various categories: {Iris-setosa=1, Iris-versicolor=2, Iris-virginica=3}
+
+CODE COMPILATION and EXECUTION for preprocessing:
+
+Please add the above mention libraries from library jar files(folder).
+In Windows/Mac Environment open program in Eclipse IDE and compile it.
+
+Input:
+
+Please check the input_sample.png file for input sample.
+
+1st argument is the filepath of the raw dataset and 2nd argument is the filepath of processed data set.
+
+Sample i/p: "/Users/shivapodugu/Desktop/ML/Assignment3/iris_raw_dataset.xls" "/Users/shivapodugu/Desktop/ML/postprocessedData__.xls"
+
+The input raw-datasets are saved in inputFiles folder, please use these .xls files as input raw datasets.
+
+Sample Output:
+
+The values set to various categories: {Iris-setosa=1, Iris-versicolor=2, Iris-virginica=3}
+standardizing under process..
+Post Processed File is created and stored in /Users/shivapodugu/Desktop/ML/postprocessedData__.xls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
